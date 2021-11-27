@@ -1,8 +1,9 @@
 const typed = new Typed('.typed', {
     strings: [
-        '<i class="atividades">Curso Sistemas de Informação no IFBA</i>',
-        '<i class="atividades">Estudo para me tornar Dev.Full Stack</i>',
-        '<i class="atividades">Trabalho como técnico em Infraestrutura</i>'
+        '<i class="atividades">Curso BSI no IFBA...</i>',
+        '<i class="atividades">Estudo todos os dias...</i>',
+        '<i class="atividades">Para me tornar Dev.Full Stack</i>',
+        '<i class="atividades">Trabalho com Infraestrutura</i>'
     ],
     typeSpeed: 20, // Velocidade para acrescentar letra.
     startDelay: 300, // Tempo de atraso.
