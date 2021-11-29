@@ -292,7 +292,7 @@ PERFIL
     border-radius: 10px;
     border: 6px solid rgb(41, 64, 109);
     transition: 0.5s;
-    background-image: url(/assets/img/perfil2.png);
+    background-image: url(/MeuPortfolio/assets/img/perfil2.png);
     background-size: cover;
     margin-top: 40px;
 }
@@ -302,7 +302,7 @@ PERFIL
     height: 280px;
     box-shadow: 10px 15px 4px rgba(51, 51, 51, 0.596);
     transform: rotate(-375deg);
-    background-image: url(/assets/img/perfil.jpeg);
+    background-image: url(/MeuPortfolio/assets/img/perfil.jpeg);
 }
 
 
@@ -318,7 +318,7 @@ PERFIL
 }
 
 .p1 {
-    background-image: url(/assets/img/bg01.png);
+    background-image: url(/MeuPortfolio/assets/img/bg01.png);
 }
 
 
