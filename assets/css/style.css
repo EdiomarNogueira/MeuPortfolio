@@ -36,7 +36,7 @@ body {
 
 section {
     overflow: hidden;
-    height: 400px;
+    height: auto;
     width: auto;
 }
 
@@ -294,6 +294,7 @@ PERFIL
     transition: 0.5s;
     background-image: url(/assets/img/perfil2.png);
     background-size: cover;
+    margin-top: 40px;
 }
 
 .perfil-imagem:hover {
@@ -323,7 +324,7 @@ PERFIL
 
 /*SLIDER*/
 
-.area-section-skills {
+.area-section-skills-mobile {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -331,10 +332,10 @@ PERFIL
     align-items: center;
     background-color: rgb(255, 255, 255);
     margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .section-skills {
-    height: 300px;
     width: 90%;
     border-radius: 15px;
     background-color: rgb(32, 33, 41);
@@ -349,7 +350,7 @@ PERFIL
 }
 
 .slider--item {
-    width: 100%;
+    width: 360px;
     height: inherit;
     background-position: center;
     background-size: cover;
@@ -365,11 +366,10 @@ PERFIL
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
 }
 
 .slider-item-img img {
-    width: 180px;
+    width: 120px;
     margin: 30px;
     object-fit: cover;
 }
@@ -399,9 +399,15 @@ PERFIL
     opacity: 0.5;
 }
 
-.item_teste {
-    width: 360px;
-    height: 360px;
+.slider-item-desc {}
+
+.slider-item-desc h1 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.slider-item-desc p {
+    font-size: 16px;
 }
 
 .area-skills {
@@ -480,6 +486,7 @@ PERFIL
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 .section-projects {
